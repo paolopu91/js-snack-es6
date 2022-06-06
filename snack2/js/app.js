@@ -6,3 +6,66 @@ Generare numeri random al posto degli 0 nelle proprietà:
 Punti fatti e falli subiti.
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
+
+const containerFootballClub = [
+    {
+        nome: "Inter" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Milan" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Roma" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Lazio" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Spezia" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Verona" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Atalanta" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Chievo" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Cesena" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Juventus" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Cosenza" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+    {
+        nome: "Fiorentina" ,
+        puntiFatti :"0",
+        falliSubiti:"0",
+    },
+];

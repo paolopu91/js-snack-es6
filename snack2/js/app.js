@@ -82,6 +82,8 @@ console.table(containerFootballClub);
 //For loop
 for(let i = 0; i<containerFootballClub.length; i++){
 
+    
+
     const puntiFatti = Math.floor(Math.random() * 10);
     const falliSubiti = Math.floor(Math.random() * 10);
     // console.log("Punti:", puntiFatti);
@@ -92,5 +94,21 @@ for(let i = 0; i<containerFootballClub.length; i++){
         puntiFatti,
         falliSubiti,
     }
+    
 }
 console.table(containerFootballClub);
+
+
+//I add the name and fouls suffered in a new array
+//for loop
+for(let i = 0; i<containerFootballClub.length;i++){
+    const nome = containerFootballClub[i].nome
+    // I recreate the constant for the fouls suffered
+    const falliSubiti = Math.floor(Math.random() * 10);
+    containerEmptyFotball.push({
+        falliSubiti,
+        nome,
+    })
+}
+console.table(containerEmptyFotball);
+

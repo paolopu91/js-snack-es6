@@ -15,23 +15,23 @@ Stampare a schermo la bici con peso minore utilizzando destructuring e template 
 const containerBikes = [
 {
     nome: "triban",
-    peso: "4",
+    peso: 4,
 },
 {
     nome: "van rysel",
-    peso: "3",
+    peso: 3,
 },
 {
     nome: "3T",
-    peso: "9",
+    peso: 9,
 },
 {
     nome: "protek bikes gravel",
-    peso: "2",
+    peso: 2,
 },
 {
     nome: "btwin",
-    peso: "5",
+    peso: 5,
 },
 ];
 

@@ -68,3 +68,10 @@ const newStudentsMap = students.map((student, i, students) => {
 })
 console.table(newStudentsMap);
 
+
+
+//I'll create new array students with grades > 70
+const newStudentsFilter = students.filter((student) => {
+return student.grades > 70;
+})
+console.table(newStudentsFilter);

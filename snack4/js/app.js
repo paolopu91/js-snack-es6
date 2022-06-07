@@ -75,3 +75,9 @@ const newStudentsFilter = students.filter((student) => {
 return student.grades > 70;
 })
 console.table(newStudentsFilter);
+
+//I'll create new array with grades > 70 && id > 120.
+const bestStudents = students.filter ((student) =>{
+return student.grades > 70 && +student.id > 120;
+})
+console.table(bestStudents);

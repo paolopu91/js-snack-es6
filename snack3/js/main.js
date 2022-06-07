@@ -32,3 +32,15 @@ myArray.forEach((element, index , myArray) => {
 })
 //i'll stamp my newArray with the names includeds between 1 and 5
 console.log(newArray);
+
+
+console.log("----------Filter---------------");
+
+//i'll do the same with .filter
+const newArrayFilter = myArray.filter((element, i, myArray) => {
+//i'm going to create my condition for prints names in the new array
+if(i > min && i < max){
+    return element
+}
+})
+console.log(newArrayFilter);

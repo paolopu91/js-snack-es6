@@ -40,7 +40,9 @@ console.log("----------Filter---------------");
 const newArrayFilter = myArray.filter((element, i, myArray) => {
 //i'm going to create my condition for prints names in the new array
 if(i > min && i < max){
-    return element
+
+    //filter always needs true or false! A Boolean number
+    return true;
 }
 })
 console.log(newArrayFilter);
